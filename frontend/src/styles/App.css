@@ -1,0 +1,49 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+ 
+}
+
+.app-container {
+  margin-left: 5rem;
+  margin-right: 5rem; 
+  display: flex;
+  /* height: 100%;
+  width: 100%; */
+  /* justify-content: space-evenly */
+}
+
+.input-container {
+  margin-left: 4rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.regenerate-start-container {
+  display: flex;
+}
+
+
+@media (max-width:850px) {
+  .app-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .input-container{
+    margin-left: 0rem;
+    align-items: center;
+  }
+  .input-container h1 {
+    text-align: center;
+  }
+}

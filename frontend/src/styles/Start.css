@@ -1,0 +1,16 @@
+.start-container {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+}
+    
+
+
+.button-container {
+    text-align: center;
+}

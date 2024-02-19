@@ -1,0 +1,87 @@
+.maze-container {
+    box-sizing: border-box;
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+  }
+  .row {
+    display: flex;
+  }
+  
+  .cell {
+    background-color: #fff;
+  }
+  
+
+  .start {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hidden {
+    display: hidden;
+  }
+
+  .absolute-position {
+    position: absolute; 
+    z-index: 999;
+    width: auto;
+    height: auto;
+  }
+
+  .visited-cell {
+    background-color: #e3940b !important;
+    outline: 1px solid gray !important;
+  }
+
+  .best-cell {
+    background-color: #5ae30b !important;
+    outline: 1px solid gray !important;
+  }
+
+  .visited-best-cell {
+    outline: 1px solid gray !important;
+    background-color: #9fbc0b !important;
+  }
+
+  .wall {
+    background-color: inherit;
+  }
+  
+  .path {
+    outline: 1px solid gray;
+    background-color: white;
+  }
+  
+  .img-spongebob {
+    margin:auto;
+    position: absolute;
+    z-index: 999;
+  }
+
+  .blur {
+    filter: blur(10px);
+  }
+  
+  .end {
+    outline: 2px solid green;
+    background-color: #66bb6a;
+  }
+
+  .rounded-top-right {
+    border-radius: 0 12px 0 0;
+  }
+
+  .rounded-top-left {
+    border-radius: 12px 0 0 0;
+  }
+
+  .rounded-bottom-right {
+    border-radius: 0 0 12px 0
+  }
+
+  .rounded-bottom-left {
+    border-radius: 0 0 0 12px
+  }
