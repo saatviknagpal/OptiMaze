@@ -1,16 +1,13 @@
 # OptiMaze
 
-Welcome to the OptiMaze! This project consists of a maze-solving game built with Spring Boot for the backend and React for the frontend. Players can navigate through a maze to reach the destination while visualizing their path and the optimal path. The project is deployed on Microsoft Azure, with Azure App Services for both the backend and frontend. Additionally, it manages continuous integration and deployment (CI/CD) using GitHub Actions for the backend and Azure DevOps Pipelines for the frontend.
+Welcome to the OptiMaze! This project consists of a maze-solving game built with Spring Boot for the backend and React for the frontend. Players can navigate through a maze to reach the destination while visualizing their path and the optimal path.
 
 ## Table of Contents
 
-- [Website](#website)
 - [Technologies](#technologies)
 - [Local Development](#local-development)
-- [Dockerization](#dockerization)
 - [API Documentation with Swagger](#api-documentation-with-swagger)
 - [Usage](#usage)
-- [Authors](#authors)
 - [Contributing](#contributing)
 
 ## Technologies
@@ -22,7 +19,6 @@ Welcome to the OptiMaze! This project consists of a maze-solving game built with
 - JUnit
 - Mockito
 - Swagger
-- Azure App Services
 
 ### Algorithms:
 
@@ -39,11 +35,6 @@ There are two main algorithms used:
 - Material UI
 - Emotion
 - Axios
-
-### Continuous Integration and Deployment (CI/CD)
-
-- GitHub Actions (Backend)
-- Azure DevOps Pipelines (Frontend)
 
 ## Local Development
 
